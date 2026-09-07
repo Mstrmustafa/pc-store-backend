@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using PcStore.Application.Abstractions;
+using PcStore.Core.Contracts.Catalog;
 using PcStore.DataAccess.Context;
 using PcStore.DataAccess.Queries;
 
