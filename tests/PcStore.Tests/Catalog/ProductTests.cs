@@ -1,4 +1,4 @@
-using PcStore.Domain.Catalog;
+using PcStore.Core.Entities.Catalog;
 
 namespace PcStore.Tests.Catalog;
 
