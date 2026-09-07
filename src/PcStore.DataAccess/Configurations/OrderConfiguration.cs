@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using PcStore.Domain.Orders;
+using PcStore.Core.Entities.Orders;
 
 namespace PcStore.DataAccess.Configurations;
 
