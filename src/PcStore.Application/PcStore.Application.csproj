@@ -1,5 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">
-  <ItemGroup>
-    <ProjectReference Include="../PcStore.Domain/PcStore.Domain.csproj" />
-  </ItemGroup>
-</Project>
