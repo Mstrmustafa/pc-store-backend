@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <ItemGroup>
-    <ProjectReference Include="../PcStore.Application/PcStore.Application.csproj" />
+    <ProjectReference Include="../PcStore.Core/PcStore.Core.csproj" />
     <ProjectReference Include="../PcStore.DataAccess/PcStore.DataAccess.csproj" />
     <ProjectReference Include="../PcStore.Infrastructure/PcStore.Infrastructure.csproj" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.3" />
