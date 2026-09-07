@@ -8,6 +8,8 @@ Production-oriented ASP.NET Core backend starter for an online PC and computer-c
 - `PcStore.Application` — use cases, DTOs, abstractions
 - `PcStore.Domain` — entities and business rules
 - `PcStore.Infrastructure` — EF Core, PostgreSQL, repositories
+- `PcStore.DataAccess` — EF Core context, configurations, repositories, seed data, and migrations
+- `PcStore.Infrastructure` — external integrations such as authentication, payments, email, caching, and storage
 - `PcStore.Tests` — automated tests
 
 ## Initial modules
@@ -25,7 +27,7 @@ Requirements: .NET 8 SDK and Docker.
 ```bash
 docker compose up -d postgres
 dotnet restore
-dotnet ef database update --project src/PcStore.Infrastructure --startup-project src/PcStore.Api
+dotnet ef database update --project src/PcStore.DataAccess --startup-project src/PcStore.Api
 dotnet run --project src/PcStore.Api
 ```
 
