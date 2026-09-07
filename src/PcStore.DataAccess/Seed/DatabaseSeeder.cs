@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using PcStore.DataAccess.Context;
-using PcStore.Domain.Catalog;
+using PcStore.Core.Entities.Catalog;
 
 namespace PcStore.DataAccess.Seed;
 
