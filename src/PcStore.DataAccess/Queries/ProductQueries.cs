@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using PcStore.Application.Abstractions;
-using PcStore.Application.Catalog;
-using PcStore.Application.Common;
+using PcStore.Core.Common;
+using PcStore.Core.Contracts.Catalog;
 using PcStore.DataAccess.Context;
 
 namespace PcStore.DataAccess.Queries;
