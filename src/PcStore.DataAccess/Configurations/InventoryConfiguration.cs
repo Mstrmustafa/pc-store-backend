@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using PcStore.Domain.Inventory;
+using PcStore.Core.Entities.Inventory;
 
 namespace PcStore.DataAccess.Configurations;
 
