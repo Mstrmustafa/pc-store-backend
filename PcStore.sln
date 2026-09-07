@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PcStore.Application", "src/
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PcStore.Infrastructure", "src/PcStore.Infrastructure/PcStore.Infrastructure.csproj", "{33333333-3333-3333-3333-333333333333}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PcStore.DataAccess", "src/PcStore.DataAccess/PcStore.DataAccess.csproj", "{66666666-6666-6666-6666-666666666666}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PcStore.Api", "src/PcStore.Api/PcStore.Api.csproj", "{44444444-4444-4444-4444-444444444444}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PcStore.Tests", "tests/PcStore.Tests/PcStore.Tests.csproj", "{55555555-5555-5555-5555-555555555555}"
@@ -38,5 +40,9 @@ Global
     {55555555-5555-5555-5555-555555555555}.Debug|Any CPU.Build.0 = Debug|Any CPU
     {55555555-5555-5555-5555-555555555555}.Release|Any CPU.ActiveCfg = Release|Any CPU
     {55555555-5555-5555-5555-555555555555}.Release|Any CPU.Build.0 = Release|Any CPU
+    {66666666-6666-6666-6666-666666666666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {66666666-6666-6666-6666-666666666666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {66666666-6666-6666-6666-666666666666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {66666666-6666-6666-6666-666666666666}.Release|Any CPU.Build.0 = Release|Any CPU
   EndGlobalSection
 EndGlobal
