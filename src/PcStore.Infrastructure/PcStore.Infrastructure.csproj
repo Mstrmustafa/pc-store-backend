@@ -1,5 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <ProjectReference Include="../PcStore.Application/PcStore.Application.csproj" />
+    <ProjectReference Include="../PcStore.Core/PcStore.Core.csproj" />
   </ItemGroup>
 </Project>
