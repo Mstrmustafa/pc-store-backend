@@ -1,8 +1,10 @@
 using PcStore.Application.Abstractions;
+using PcStore.DataAccess;
 using PcStore.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddDataAccess(builder.Configuration);
+builder.Services.AddInfrastructure();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHealthChecks();
