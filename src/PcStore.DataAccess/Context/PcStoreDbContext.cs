@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using PcStore.Domain.Catalog;
-using PcStore.Domain.Inventory;
-using PcStore.Domain.Orders;
+using PcStore.Core.Entities.Catalog;
+using PcStore.Core.Entities.Inventory;
+using PcStore.Core.Entities.Orders;
 
 namespace PcStore.DataAccess.Context;
 
