@@ -1,4 +1,4 @@
-using PcStore.Application.Abstractions;
+using PcStore.Core.Contracts.Catalog;
 using PcStore.DataAccess;
 using PcStore.Infrastructure;
 
