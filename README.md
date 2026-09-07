@@ -5,9 +5,9 @@ Production-oriented ASP.NET Core backend starter for an online PC and computer-c
 ## Architecture
 
 - `PcStore.Api` — HTTP endpoints, middleware, dependency injection
-- `PcStore.Application` — use cases, DTOs, abstractions
-- `PcStore.Domain` — entities and business rules
-- `PcStore.Infrastructure` — EF Core, PostgreSQL, repositories
+- `PcStore.Core/Common` — shared base classes and primitives
+- `PcStore.Core/Contracts` — DTOs, requests, responses, and service contracts
+- `PcStore.Core/Entities` — database table entities, columns, and relationships
 - `PcStore.DataAccess` — EF Core context, configurations, repositories, seed data, and migrations
 - `PcStore.Infrastructure` — external integrations such as authentication, payments, email, caching, and storage
 - `PcStore.Tests` — automated tests
