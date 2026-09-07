@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using PcStore.Domain.Catalog;
+using PcStore.Core.Entities.Catalog;
 
 namespace PcStore.DataAccess.Configurations;
 
@@ -14,6 +14,7 @@ public sealed class ProductConfiguration : IEntityTypeConfiguration<Product>
         builder.Property(x => x.Price).HasPrecision(18, 2);
         builder.HasIndex(x => x.Sku).IsUnique();
         builder.HasOne(x => x.Category).WithMany().HasForeignKey(x => x.CategoryId);
+        builder.HasOne(x => x.Brand).WithMany().HasForeignKey(x => x.BrandId);
     }
 }
 
